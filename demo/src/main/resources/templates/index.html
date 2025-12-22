@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>User Input</title>
+</head>
+<body>
+  <h2>Enter Your Details</h2>
+  <form action="/addUser" method="post">
+    Name: <input type="text" name="name" required><br><br>
+    Email: <input type="email" name="email" required><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2>Stored Users</h2>
+  <ul>
+    <li th:each="user : ${users}" th:text="${user.name + ' - ' + user.email}"></li>
+  </ul>
+</body>
+</html>
