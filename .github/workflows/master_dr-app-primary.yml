@@ -50,4 +50,4 @@ jobs:
           app-name: 'dr-app-primary'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D02257050DBA404BBA9CEBEFDD2DCA9C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9F214DF600AB49D1A326B7F78E9A50AC }}
