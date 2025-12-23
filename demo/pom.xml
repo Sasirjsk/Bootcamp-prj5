@@ -73,7 +73,7 @@
                     <resourceGroup>resource-spb</resourceGroup>
                     <appName>myapp-test</appName>
                     <region>canadacentral</region>
-                    <pricingTier>B2</pricingTier>
+                    <pricingTier>P0v3</pricingTier>
                     <!-- Free: F1, Basic: B1 -->
                     <runtime>
                         <os>linux</os>
